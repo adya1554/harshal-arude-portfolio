@@ -13,9 +13,14 @@ const Hero = () => {
       
       <div className="container mx-auto text-center relative z-10">
         <div className="animate-fade-in">
-          <div className="w-32 h-32 mx-auto mb-8 bg-gradient-to-br from-blue-600 to-purple-600 rounded-full flex items-center justify-center shadow-2xl">
-            <User className="w-16 h-16 text-white" />
-          </div>
+          <div className="w-32 h-32 mx-auto mb-8 rounded-full overflow-hidden shadow-2xl border-4 border-white">
+  <img
+    src="/aditya.jpg"
+    alt="Aditya Magadum"
+    className="w-full h-full object-cover"
+  />
+</div>
+
           
           <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-4 tracking-tight">
             Harshal <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">Arude</span>
